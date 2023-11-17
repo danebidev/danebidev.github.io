@@ -1,12 +1,36 @@
 {
-    "question": "Il tuo personaggio è morto?",
+    "question": "Il tuo personaggio è vivo?",
     "answers": {
-        "Si": "Steven Hawkings",
-        "No": {
-            "question": "xxx",
+        "Si": {
+            "question": "Il tuo personaggio è un astrofisico?",
             "answers": {
-                "a": "b",
-                "c": "d"
+                "Si": "Neil deGrasse Tyson",
+                "No": {
+                    "question": "Il tuo personaggio è famoso nel campo informatico?",
+                    "answers": {
+                        "Si": "Vinton Cerf",
+                        "No": {
+                            "question": "Il tuo personaggio è famoso per il suo lavoro sugli scimpanzè?",
+                            "answers": {
+                                "Si": "Jane Goodall",
+                                "No": "Temple Grandin"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "No": {
+            "question": "Il tuo personaggio è famoso nel campo informatico?",
+            "answers": {
+                "Si": {
+                    "question":"Il tuo personaggio ha vinto un premio nobel?",
+                    "answers":
+                    {}
+                },
+                "No": {
+
+                }
             }
         }
     }
