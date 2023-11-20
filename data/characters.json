@@ -24,12 +24,43 @@
             "question": "Il tuo personaggio è famoso nel campo informatico?",
             "answers": {
                 "Si": {
-                    "question":"Il tuo personaggio ha vinto un premio nobel?",
-                    "answers":
-                    {}
-                },
+                    "question": "Il tuo personaggio aveva fatto il primo computer?",
+                    "answers": {
+                        "si": "Alan Turing",
+                        "No": {
+                            "question": "Il tuo personaggio aveva fondato Apple?",
+                            "answers": {
+                                "si": "Steve Jobs",
+                                "No": "Non saprei che dire... Hai vinto!"
+                            }
+                        }
+                    }
+                }, 
                 "No": {
-
+                    "question": "Il tuo personaggio era uno schiavo?",
+                    "answers":
+                    {
+                        "Si": "George Washington Carver",
+                        "No": {
+                            "question": "Il tuo personaggio ha vinto un premio nobel?",
+                            "answers": {
+                                "Si": "Norman Borlaug",
+                                "No": {
+                                    "question": "'Il tuo personaggio era conosciuto come il \"Padre della bomba nucleare?\"",
+                                    "answers": {
+                                        "Si": "J. Robert Oppenheimer",
+                                        "No": {
+                                            "question": "Il tuo personaggio ha fatto delle teorie sulla gravità?",
+                                            "answers": {
+                                                "Si": "Isaac Newton",
+                                                "No": "Non saprei che dire... Hai vinto!"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
